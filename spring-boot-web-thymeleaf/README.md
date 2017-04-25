@@ -4,14 +4,17 @@ Este es un Hola Mundo de spring boot con Thymeleaf
 
 ## Como iniciar la aplicacion
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Estas son las instrucciones para levantar el proyecto de manera correcta
 
-### Prerequisites
-
-What things you need to install the software and how to install them
+### Librerias requeridas
 
 ```
-Give examples
+1. Spring Boot 1.4.2.RELEASE
+2. Spring 4.3.4.RELEASE
+3. Thymeleaf 2.1.5.RELEASE
+4. Tomcat Embed 8.5.6
+5. Maven 3
+6. Java 8
 ```
 
 ### Installing
