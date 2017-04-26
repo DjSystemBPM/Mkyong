@@ -177,7 +177,7 @@ welcome.message: Hola Alfredo
 
 ### Inicia el proyecto desde Maven 
 ```
-** $ mvn spring-boot:run **
+$ mvn spring-boot:run
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
