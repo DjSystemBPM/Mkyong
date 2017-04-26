@@ -1,6 +1,6 @@
-# Spring Boot Web JSP	
+# Spring Boot Non Web	
 
-Este es un Hola Mundo de spring boot con JSPs
+Este es un Hola Mundo de spring boot
 
 ## Como iniciar la aplicacion
 
