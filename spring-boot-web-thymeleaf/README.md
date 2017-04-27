@@ -1,6 +1,6 @@
 # Spring Boot Web Thymeleaf	
 
-Este es un Hola Mundo de spring boot con Thymeleaf
+Este es un Hola Mundo de Spring Boot con Thymeleaf
 
 ## Como iniciar la aplicacion
 
