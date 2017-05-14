@@ -201,11 +201,11 @@ public class Stock implements java.io.Serializable {
 ### 5.- Creamos el archivo de configuracion de Hibernate
 Archivo: hibernate.cfg.xml
 
-<mapping resource="com/mkyong/common/Stock.hbm.xml"></mapping>
+mapping resource="com/mkyong/common/Stock.hbm.xml"
 
 por 
 
-<mapping class="com.mkyong.common.Stock"></mapping>
+mapping class="com.mkyong.common.Stock"
 
 
 ```
