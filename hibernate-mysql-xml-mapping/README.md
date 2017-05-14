@@ -1,6 +1,6 @@
 # HIBERNATE Y MYSQL MAPEO XML
 
-Este es un ejemplo hibernate con mysql y mapeo xml
+Este es un ejemplo hibernate con mysql y mapeo por xml
 
 ## Como iniciar la aplicacion
 
