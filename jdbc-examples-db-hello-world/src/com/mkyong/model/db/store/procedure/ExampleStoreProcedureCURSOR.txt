@@ -1,0 +1,11 @@
+CREATE OR REPLACE PROCEDURE getDBUSERCursor(
+	   p_username IN DBUSER1.USERNAME%TYPE,
+	   c_dbuser OUT SYS_REFCURSOR)
+IS
+BEGIN
+
+  OPEN c_dbuser FOR
+  SELECT * FROM DBUSER1 WHERE USERNAME LIKE p_username || '%';
+
+END;
+/
