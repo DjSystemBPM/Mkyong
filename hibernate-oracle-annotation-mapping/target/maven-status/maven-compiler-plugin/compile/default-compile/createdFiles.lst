@@ -1,0 +1,3 @@
+com/mkyong/App.class
+com/mkyong/user/DBUser.class
+com/mkyong/util/HibernateUtil.class
