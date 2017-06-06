@@ -57,4 +57,19 @@ public class UserRestService {
 		.entity("getUserBookByISBN is called, isbn : " + isbn).build();
 
 	}
+	
+	@GET
+	@Path("{year}/{month}/{day}")
+	public Response getUserHistory(
+			@PathParam("year") int year,
+			@PathParam("month") int month,
+			@PathParam("day") int day) {
+
+	   String date = year + "/" + month + "/" + day;
+
+	   return Response.status(200)
+		.entity("Estas llamando el metodo getUserHistory(), year/month/day : " + date)
+		.build();
+
+	}
 }

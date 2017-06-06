@@ -109,6 +109,21 @@ public class UserRestService {
 		.entity("getUserBookByISBN is called, isbn : " + isbn).build();
 
 	}
+	
+	@GET
+	@Path("{year}/{month}/{day}")
+	public Response getUserHistory(
+			@PathParam("year") int year,
+			@PathParam("month") int month,
+			@PathParam("day") int day) {
+
+	   String date = year + "/" + month + "/" + day;
+
+	   return Response.status(200)
+		.entity("Estas llamando el metodo getUserHistory(), year/month/day : " + date)
+		.build();
+
+	}
 }
 
 ```
@@ -154,6 +169,7 @@ http://localhost:8084/RESTfulExample/rest/users/999
 http://localhost:8084/RESTfulExample/rest/users/username/aaa   ESTE NO VA A SERVIR POR LA CONDICION DEL METODO
 http://localhost:8084/RESTfulExample/rest/users/username/a9
 http://localhost:8084/RESTfulExample/rest/users/books/999
+http://localhost:8084/RESTfulExample/rest/users/2011/06/30
 ```
 
 ## Version
