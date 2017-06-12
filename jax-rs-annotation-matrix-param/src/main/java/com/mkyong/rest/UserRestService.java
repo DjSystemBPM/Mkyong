@@ -1,24 +1,38 @@
 package com.mkyong.rest;
 
 import javax.ws.rs.GET;
-import javax.ws.rs.MatrixParam;
+import javax.ws.rs.HeaderParam;
 import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.Response;
 
-@Path("/books")
+@Path("/users")
 public class UserRestService {
 
 	@GET
-	@Path("{year}")
-	public Response getBooks(@PathParam("year") String year,
-			@MatrixParam("author") String author,
-			@MatrixParam("country") String country) {
+	@Path("/get")
+	public Response addUser(@HeaderParam("user-agent") String userAgent) {
 
-		return Response
-			.status(200)
-			.entity("getBooks is called, year : " + year
-				+ ", author : " + author + ", country : " + country)
+		return Response.status(200)
+				.entity("addUser is called, userAgent : " + userAgent)
+				.build();
+
+	}
+	
+	
+	@GET
+	@Path("/get2")
+	public Response addUser2(@Context HttpHeaders headers) {
+
+		String userAgent = headers.getRequestHeader("user-agent").get(0);
+
+		String headerComplete = "";
+		for(String header : headers.getRequestHeaders().keySet()){
+			headerComplete = header;
+		}
+		return Response.status(200)
+			.entity("addUser is called, userAgent : " + userAgent + " " + headerComplete)
 			.build();
 
 	}
