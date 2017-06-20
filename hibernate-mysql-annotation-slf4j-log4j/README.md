@@ -123,7 +123,7 @@ Al ejecutar el hibernate veremos que nuestro log queda algo asi:
 
 ## Version
 
-Use un controlador de versiones que es: [Github](https://github.com). La URL para descargar el ṕroyecto es la siguente: [DjSystemBPM/RedHatProducts](https://github.com/DjSystemBPM/RedHatProducts). 
+Use un controlador de versiones que es: [Github](https://github.com). La URL para descargar el ṕroyecto es la siguente: [DjSystemBPM/Mkyong](https://github.com/DjSystemBPM/Mkyong.git). 
 
 ## Autores
 
