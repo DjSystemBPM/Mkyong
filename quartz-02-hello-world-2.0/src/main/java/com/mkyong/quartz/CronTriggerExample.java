@@ -14,7 +14,7 @@ public class CronTriggerExample {
 		// JobDetail job = new JobDetail();
 		// job.setName("dummyJobName");
 		// job.setJobClass(HelloJob.class);
-		JobDetail job = JobBuilder.newJob(HelloJob.class).withIdentity("dummyJobName", "group1").build();
+		JobDetail job = JobBuilder.newJob(HelloJob.class).withIdentity("dummyJobNamessss", "group1").build();
 
 		// CronTrigger trigger = new CronTrigger();
 		// trigger.setName("dummyTriggerName");
