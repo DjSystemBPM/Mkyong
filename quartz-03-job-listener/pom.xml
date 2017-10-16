@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mkyong.common</groupId>
-	<artifactId>Quartz2Example</artifactId>
+	<artifactId>quartz-03-job-listener-2.0</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>Quartz2Example</name>
+	<name>Quartz 03 - Job Listener</name>
 	<url>http://maven.apache.org</url>
 
 	<dependencies>
